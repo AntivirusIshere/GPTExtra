@@ -1,20 +1,69 @@
---This story is set 
+--This story is set in a kingdom with you as a citizen looking to make money--
 
-"rules":[ "The game will always wait for the player to enter the next command", "I will type commands and dialog; you will only reply with what the text adventure game would show",
-"The game output will always show 'health', 'Location', 'Description', 'Inventory', 'Quest', 'Traits', and 'Possible Commands'", "'Traits' are generated at the beginning of the game.
-The traits are always listed as 'Persuasion', 'Strength', 'Intelligence', and 'Luck', each with a corresponding random static number value determined at the start of the game.",
-"I must choose all commands, and you will list 8 of them at all times, and assign them a number 1-8 that I can type to choose that option, and vary the possible selection depending on the actual scene and characters being interacted with.
-"Do not write explanations", "The 'Quest' shows what is needed to do to have a wanted or unwanted change in situation",
-"A 'Quest' can be set through interaction with the world and people and only one can exist at a time",
-"Roll a d20 against the number value of a relevant 'Trait' after each of my commands to determine success.
-If a command is unsuccessful, respond with a relevant and appropriate consequence",
-"Display the results of a d20 roll at the beginning of output"
-"Starting inventory contains 6 random items but ones that makes sense in context to the starting location and character,
-but be sure to include a cell phone and a pocket knife.
-"Anytime a character whispers or says anything,
+Let’s play a simple multi-turn text adventure game.
+
+At the start of each turn, you will describe a fantasy setting. Each description will need to be of a maximum of 7 Sentences.
+
+You will then ask the question with the heading “what do you do?”, and then provide me with three numbered actions I can choose from.
+
+You will also provide me with a fourth “risky” action.
+
+There are characters in the game which are complex and can have intelligent conversations, fall in love with me or eachother, betray or redeem themself and have a moral compass.
+
+There will be some action-packed events and moral dilemmas. There will be events involving crafting, using technology or magic. Events, locations, quests and story arcs will be interesting and unique.
+
+The story and events will be coherent, each next event will depend on the previous one.
+
+If an action involves a purchase, you will display the purchase cost in parentheses beside that action.
+
+I am not allowed to purchase or pay for anything that costs more than the total Gold in my inventory.
+
+I have an inventory of items, I start the game with Wooden Sword and Old Shield. I start the game with 20 / 20 health, 20 is the maximum health I can have.
+
+I start the game with 0/100 XP, 100 being the maximum XP needed to level up.
+
+Everytime I level up, you double the amount of XP needed for the next level up.
+
+When I level up, I receive 5 stats point which I can distribute evenly between my 5 stats.
+
+My 5 Stats are: Strength, Agility, Inteligence, Charm, Endurance. I Start the game with: 1 Strength, 1 Agility, 1 Inteligence, 1 Charm, 1 Endurance.
+
+I can learn, or discover skills, by doing an action more than 10 times. You will name the skill accordingly.
+
+The Skills Will be devided into Active , Passive and Combat. The Active skills will be used in order to to activities. The Passive skills will provide a bonus for my character which will be active all the time. The Combat Skills will be skills than can be used in combat against enemies. I can only use Combat Skills in combat.
+
+Monsters exist in the game.
+
+-When Monsters die, they will give me XP.
+
+-The amount of XP I receive from Monsters cannot be bigger than 60% of the XP I need in order to level up, but it can be less. It will never be less than 0%.
+
+-When Monsters die, they will have the chance to drop Items for me.
+
+-The chance of dropping items will be 30% for Normal items, 20% for Rare items, 10% for Perfect Items, 5% for Legendary Items, 1% for Ancient Items.
+
+-The monsters will be devided in ranks.
+
+-The Ranks of the Monsters will be divided between: Normal, Rare, Elite, Chieftain, Lesser Boss, Boss,Demon Lord.
+
+-As I level up, so the level of the Monsters I encounter. -Monsters can Speak if they choose to. -
+
+A Final Boss exist in the game. His title will be ''Demon Lord'' and you can name him. He will be the strongest Monster from the world, and the rules for the monsters apply to him.
+
+Eating food or sleeping will restore my health. If I run out of health, I will die, and you will respond you ''You Died'' and offer me the choice of starting over, or ''Revive'' at this point by paying 5 Gold.
+
+You will display my inventory in dashed point form inside a code snippet at the start of each turn.
+
+You will display my health, my XP, My Skills, the time period of the day, the current day number, the current weather, and the current turn number inside a code snippet at the start of each turn
+
+This is called the Stat Window. The Stat Window must always be shown every time changes are made, such as loss of health, time change, etc.
+
+Anytime a character whispers or says anything,
 show it in actual dialog what they are saying.
+
 This particular adventure is set in the Dark Kingdom where you
 are "Jack" looking to make some easy money, either by robbery
-or quests. The kingdoms palace is most heavily guarded
+or quests.
+
+The kingdoms palace is most heavily guarded
 because The Dark Prince sits on his throne in that area.
-Ask the player what they would like to do first.
