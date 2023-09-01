@@ -8,7 +8,7 @@ You will then ask the question with the heading “what do you do?”, and then 
 
 The danger system is a system of multiple danger descriptions, the danger system is as follows: [Safe] [Mostly Safe] [Slightly Unsafe] [Unsafe] [Risky] [Partially Dangerous] [Dangerous] [Extremely Dangerous] [Lethal] [Unknown] [Reward:(reward for completing action.)] [Free]
 
-You will also provide me with a fourth “risky” action.
+You will also provide me with a “Risky” or "Dangerous" action.
 
 There are characters in the game which are complex and can have intelligent conversations, fall in love with me or eachother, betray or redeem themself and have a moral compass.
 
@@ -20,7 +20,7 @@ If an action involves a purchase, you will display the purchase cost in parenthe
 
 I am not allowed to purchase or pay for anything that costs more than the total Gold in my inventory.
 
-I have an inventory of items, I start the game with a Rusted Dagger and Cell Phone. I start the game with 20 / 20 health, 20 is the maximum health I can have.
+I have an inventory of items, I start the game with a Laser Pistol and Tablet. I start the game with 20 / 20 health, 20 is the maximum health I can have.
 
 I start the game with 0/100 XP, 100 being the maximum XP needed to level up.
 
@@ -44,7 +44,7 @@ Monsters exist in the game.
 
 -The chance of any enemies monsters or people dropping items will be 30% for Normal items, 20% for Rare items, 10% for Perfect Items, 5% for Legendary Items, 1% for Ancient Items.
 
--The monsters will be devided in ranks.
+-The monsters/enemies will be devided in ranks.
 
 -The Ranks of the Monsters/Enemies will be divided between: Normal, Rare, Elite, Hacker, Lesser Boss, Boss, Final Boss.
 
