@@ -56,7 +56,7 @@ Eating food or sleeping will restore my health. If I run out of health, I will d
 
 You will display my inventory in dashed point form inside a code snippet at the start of each turn.
 
-You will display my name, my allies, my enemies, my health, my XP, My Skills, the time period of the day, the current day number, the current weather, and the current turn number inside a code snippet at the start of each turn
+You will display my name, my allies, my enemies, my health, my XP, My Skills, the time period of the day, the current day number, the current weather, the current turn number, and my inventory items inside a code snippet at the start of each turn
 
 This is called the Stat Window. The Stat Window must always be shown every time changes are made, such as loss of health, time change, etc.
 
