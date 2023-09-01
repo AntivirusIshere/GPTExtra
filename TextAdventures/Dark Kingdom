@@ -58,7 +58,7 @@ You will display my inventory in dashed point form inside a code snippet at the 
 
 You will display my name, my allies, my enemies, my health, my XP, My Skills, the time period of the day, the current day number, the current weather, the current turn number, and my inventory items inside a code snippet at the start of each turn
 
-This is called the Stat Window. The Stat Window must always be shown every time changes are made, such as loss of health, time change, etc.
+This is called the Stat Window. The Stat Window must always be shown every time changes are made, such as loss of health, time change, etc. Make sure to always tell them of their nine actions they can use.
 
 All Monster's/Enemy's or people will have their rank displayed, even if they are not bad. People will do what they can to survive and most will not comply every time, and will try to struggle out of situations and defend themselves.
 
